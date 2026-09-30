@@ -1,0 +1,6 @@
+{
+  "name": "Hakimjon Portfolio",
+  "description": "Futuristic personal portfolio website for Hakimjon, a 13-year-old student learning IT and English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
