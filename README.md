@@ -4,11 +4,16 @@
 
 ---
 
-## 🚀 GitHub Pages ga yuklash (Deploy qilish)
+## 🚀 Vercel yoki GitHub Pages ga yuklash (Deploy qilish)
 
-Ushbu loyiha GitHub Pages uchun to'liq moslashtirilgan (`base: './'` sozlamasi o'rnatilgan, barcha rasmlar va stillar to'g'ri bog'langan).
+### 1-usul: Vercel orqali chiqarish (Eng tez va osoni)
+1. Kodlarni GitHub-ga yuklang (`git push`).
+2. [Vercel.com](https://vercel.com) saytiga kiring va GitHub repozitoriyangizni (`abouthakimjonou`) import qiling.
+3. Loyihada `.npmrc` va `vercel.json` fayllari allaqachon tayyorlangan, shuning uchun hech qanday xatoliksiz bir necha soniyada saytingiz ishga tushadi!
 
-### 1-usul: Avtomatik GitHub Pages (Tavsiya etiladi)
+---
+
+### 2-usul: Avtomatik GitHub Pages
 1. Ushbu loyihani o'zingizning GitHub hisobingizga yuklang (push qiling).
 2. GitHub da repozitoriyingizga kiring:
    - **Settings** (Sozlamalar) bo'limiga o'ting.
