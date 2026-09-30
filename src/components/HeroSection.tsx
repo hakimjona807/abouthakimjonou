@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import { User, MessageSquare, Terminal, Sparkles, Compass } from 'lucide-react';
+import cyberAvatarImg from '../assets/images/avatar_abstract_cyber_1790780492526.jpg';
 
 export default function HeroSection() {
   const [imgError, setImgError] = useState(false);
@@ -145,7 +146,7 @@ export default function HeroSection() {
               <div className="relative w-full h-full rounded-[22px] overflow-hidden bg-slate-950 flex items-center justify-center">
                 {!imgError ? (
                   <img
-                    src="/src/assets/images/avatar_abstract_cyber_1790780492526.jpg"
+                    src={cyberAvatarImg}
                     alt="Futuristic abstract developer avatar representing Hakimjon"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
